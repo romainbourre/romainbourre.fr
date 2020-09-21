@@ -1,0 +1,32 @@
+/* TAGS */
+
+.tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.tags .tag {
+    background: cornflowerblue;
+    color: whitesmoke;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.tags .tag.primary {
+    background-color: cornflowerblue;
+}
+
+.tags .tag.secondary {
+    background-color: grey;
+}
+
+.tags .tag.success {
+    background-color: green;
+}
+
+.tags .tag.danger {
+    background-color: red;
+}

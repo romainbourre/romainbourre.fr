@@ -1,0 +1,22 @@
+/* COLOR CLASS */
+
+.white-text:not(:hover) {
+    color: white !important;
+}
+.white-text-hover:hover {
+    color: white !important;
+}
+
+.primary-text:not(:hover) {
+    color: cornflowerblue;
+}
+.primary-text:hover {
+    color: cornflowerblue;
+}
+
+.secondary-text:not(:hover) {
+    color: gray !important;
+}
+.secondary-text-hover:hover {
+    color: gray !important;
+}

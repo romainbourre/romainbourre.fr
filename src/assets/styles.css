@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+html, body {
+    font-family: 'Dosis', sans-serif;
+    background-color: ghostwhite;
+}
+
+footer svg {
+    width: 100% !important;
+    float: left;
+}
+
+footer .content {
+    width: 100% !important;
+    background: #6A5ACD;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    float: right;
+}
+
+.navbar .brand {
+    font-family: 'Krona One', serif;
+}
+.navbar .brand span {
+    color: cornflowerblue;
+}
+
+.emoji-list {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.description {
+    font-family: -apple-system, sans-serif;
+    font-size: 1.25em;
+    color: #1B3B59;
+    padding: 0 12px;
+    line-height: 1.7em;
+}
+
+.follow {
+    font-family: -apple-system, sans-serif;
+    float: right;
+    text-transform: uppercase;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    border: 1px solid whitesmoke;
+    box-shadow: black 5px 2px 2px;
+}
+
+.legal-notes {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tag {
+    font-size: 15px;
+}
+
+.social-network {
+    background-color: rgba(255,255,255, 0.5);
+    padding: 10px !important;
+    border-radius: 8px;
+}
