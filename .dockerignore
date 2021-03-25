@@ -1,1 +1,3 @@
 docker/
+.gitignore
+.idea
